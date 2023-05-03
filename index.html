@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0cdda4eb1e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./script.js" defer></script>
+    <title>Shopping Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="logo"><i class="fa-solid fa-store"></i></h1>
+      <div class="btns">
+        <button>
+          <img
+            src="./images/chanel.png"
+            class="btn_chanel"
+            alt="샤넬"
+            data-key="brand"
+            data-value="CHANEL"
+          />
+        </button>
+        <button>
+          <img
+            src="./images/makeup.png"
+            class="btn_makeup"
+            alt="메이크업뽀에버"
+            data-key="brand"
+            data-value="MAKEUP FOR EVER"
+          />
+        </button>
+        <button>
+          <img
+            src="./images/saint.webp"
+            class="btn_ysl"
+            alt="입생로랑"
+            data-key="brand"
+            data-value="YSL"
+          />
+        </button>
+        <button class="red" data-key="color" data-value="RED">RED LIPS</button>
+        <button class="pink" data-key="color" data-value="PINK">
+          PINK LIPS
+        </button>
+        <button class="orange" data-key="color" data-value="ORANGE">
+          ORANGE LIPS
+        </button>
+      </div>
+      <ul class="items"></ul>
+    </div>
+  </body>
+</html>

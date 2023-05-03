@@ -1,0 +1,64 @@
+{
+  "items": [
+    {
+      "brand": "CHANEL",
+      "name": "알뤼르 벨벳",
+      "color": "RED",
+      "image": "./images/chanel.png"
+    },
+    {
+      "brand": "YSL",
+      "name": "루쥬 볼립떼",
+      "color": "PINK",
+      "image": "./images/saint.webp"
+    },
+    {
+      "brand": "MAKEUP FOR EVER",
+      "name": "아티스트립",
+      "color": "ORANGE",
+      "image": "./images/makeup.png"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "르쥬 코코",
+      "color": "PINK",
+      "image": "./images/chanel.png"
+    },
+    {
+      "brand": "YSL",
+      "name": "루쥬 볼립떼",
+      "color": "RED",
+      "image": "./images/saint.webp"
+    },
+    {
+      "brand": "CHANEL",
+      "name": "르쥬 코코",
+      "color": "ORANGE",
+      "image": "./images/chanel.png"
+    },
+    {
+      "brand": "MAKEUP FOR EVER",
+      "name": "아티스트 벨벳 누드",
+      "color": "RED",
+      "image": "./images/makeup.png"
+    },
+    {
+      "brand": "YSL",
+      "name": "루쥬 볼립떼",
+      "color": "ORANGE",
+      "image": "./images/saint.webp"
+    },
+    {
+      "brand": "MAKEUP FOR EVER",
+      "name": "아티스트 벨벳 누드",
+      "color": "PINK",
+      "image": "./images/makeup.png"
+    },
+    {
+      "brand": "MAKEUP FOR EVER",
+      "name": "아티스트 벨벳 누드",
+      "color": "ORANGE",
+      "image": "./images/makeup.png"
+    }
+  ]
+}

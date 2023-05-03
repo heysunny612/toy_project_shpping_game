@@ -1,0 +1,105 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3f454d;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 60px;
+  cursor: pointer;
+  transition: transform 300ms ease;
+}
+h1:hover,
+.btns button:hover {
+  transform: scale(1.1);
+}
+
+.btns {
+  padding: 10px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 15px;
+}
+
+.btns button {
+  margin: 0 5px;
+  width: 80px;
+  height: 80px;
+  border: 0 none;
+  background-color: #000;
+  color: #fff;
+  transition: transform 300ms ease;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.btns button.red {
+  background-color: rgb(255, 97, 97);
+}
+.btns button.pink {
+  background-color: pink;
+}
+.btns button.orange {
+  background-color: orange;
+}
+.btns button img {
+  width: 100%;
+}
+.items {
+  width: 100%;
+  height: 500px;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+.item {
+  display: none;
+  justify-content: flex-start;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  color: #fff;
+}
+.item.show {
+  display: flex;
+}
+
+.item.red {
+  background-color: rgb(255, 97, 97);
+}
+.item.pink {
+  background-color: pink;
+}
+.item.orange {
+  background-color: orange;
+}
+.item span {
+  display: block;
+  float: left;
+  margin-right: 10px;
+  line-height: 65px;
+  font-size: 18px;
+}
+.item_thumbnail {
+  width: 65px;
+  height: 65px;
+}
+.item_thumbnail img {
+  width: 100%;
+}
+.icon.red {
+  width: 50px;
+  height: 50px;
+}
